@@ -14,4 +14,9 @@ RUN mkdir /app
 #Repertoire courant
 WORKDIR /app
 
+#clone git
+RUN git clone https://github.com/BBQHD/TacheTest.git .
+
+
+
 
